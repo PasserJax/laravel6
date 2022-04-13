@@ -16,4 +16,18 @@ class Controller extends BaseController
         echo "这里phpstorm修改的结果 blog2项目";
 
     }
+
+    public function blogfun($params)
+    {
+        $map = [
+            'aaa' => 'nnn',
+            'vvvv' => '23852975628',
+            'yfyfy' => '22',
+        ];
+
+        for ($i=0; $i<10; $i++) {
+            echo $i;
+        }
+        var_dump($map);
+    }
 }
