@@ -30,4 +30,12 @@ class Controller extends BaseController
         }
         var_dump($map);
     }
+    
+    public function laravelFunction()
+    {
+        $res = $this->test1();
+        dd($res);
+        echo 222;
+
+    }
 }
