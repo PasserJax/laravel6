@@ -16,4 +16,12 @@ class Controller extends BaseController
         echo "这里phpstorm修改的结果 blog2项目";
 
     }
+
+    public function laravelFunction()
+    {
+        $res = $this->test1();
+        dd($res);
+        echo 222;
+
+    }
 }
