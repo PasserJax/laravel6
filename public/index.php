@@ -7,6 +7,15 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
+
+
+// $total = (280+100+400-100+170) -960 +(1000-100-60) +(180+100+20+140+420+50);
+// echo $total;exit();
+
+
+
+
+
 define('LARAVEL_START', microtime(true));
 
 /*
